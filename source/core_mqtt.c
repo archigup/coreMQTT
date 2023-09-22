@@ -293,7 +293,7 @@ static MQTTStatus_t discardPacket( const MQTTContext_t * pContext,
  * @return #MQTTRecvFailed or #MQTTNoDataAvailable.
  */
 static MQTTStatus_t discardStoredPacket( MQTTContext_t * pContext,
-                                         const MQTTPacketInfo_t * pPacketInfo );
+                                              const MQTTPacketInfo_t * pPacketInfo );
 
 /**
  * @brief Receive a packet from the transport interface.
