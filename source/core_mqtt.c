@@ -407,7 +407,7 @@ static MQTTStatus_t receiveSingleIteration( MQTTContext_t * pContext,
  * #MQTTSuccess otherwise.
  */
 static MQTTStatus_t validateSubscribeUnsubscribeParams( const MQTTContext_t * pContext,
-                                                        const MQTTSubscribeInfo_t * pSubscriptionList,
+                                                                    const MQTTSubscribeInfo_t * pSubscriptionList,
                                                         size_t subscriptionCount,
                                                         uint16_t packetId );
 
